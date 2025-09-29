@@ -1,0 +1,32 @@
+:root {
+  /* Background */
+  --color-bg-primary: #121212;
+  --color-bg-secondary: #1E1E1E;
+  --color-bg-tertiary: #2A2A2A;
+  /* Text */
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #AFAFAF;
+  --color-text-tertiary: #6C6C6C;
+  /* Accent */
+  --color-accent-primary: #B83E3E;
+  --color-accent-secondary: #4A4A4A;
+  --color-accent-positive: #2E8B57;
+  --color-accent-negative: #D24B4B;
+  /* Brand Gradient */
+  --color-brand-gradient-start: #B83E3E;
+  --color-brand-gradient-end: #8B2E2E;
+  /* Shadows */
+  --shadow-subtle: 0px 1px 2px rgba(0,0,0,0.2);
+  --shadow-card: 0px 4px 12px rgba(0,0,0,0.3);
+  --shadow-interactive: 0px 0px 15px -3px rgba(184,62,62,0.4);
+  /* Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+  --radius-full: 9999px;
+}
+
+html.dark, body.dark, html.dark body {
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
